@@ -1,0 +1,7 @@
+.button:hover {
+    border: 1px solid black;
+    color: black;
+    /* width: 70%; */
+    font-size: 25px;
+    padding: 5px;
+}
