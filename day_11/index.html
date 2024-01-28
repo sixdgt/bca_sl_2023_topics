@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Listener</title>
+</head>
+<style>
+    #myDiv {
+        background-color: red;
+        color: aliceblue;
+        width: 100%;
+        height: 400px;
+    }
+</style>
+<body>
+    <h1>JS Events and Eventlistener</h1>
+
+    <!-- html form -->
+    <button id="showForm">Show Form</button>
+    <br>
+    <form action="#" id="regForm" hidden>
+        <div>
+            <label for="firstName">First Name</label>
+            <br>
+            <input type="text" id="firstName">
+        </div>
+        <br>
+        <div>
+            <label for="lastName">Last Name</label>
+            <br>
+            <input type="text" id="lastName">
+        </div>
+        <br>
+        <div>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" id="username">
+        </div>
+        <br>
+        <div>
+            <label for="passkey">Password</label>
+            <br>
+            <input type="text" id="passkey">
+        </div>
+        <br>
+        <input type="submit" value="Register" id="btnReg">
+        <br>
+        <span id="errorMsg"></span>
+    </form>
+    <br><br>
+    <!-- changing background color -->
+    <button id="btnRandom">Random Color</button>
+    <button id="btnBlue">Blue</button>
+    <div id="myDiv">
+        I am the main div. Please change my color
+    </div>
+    <!-- external js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
